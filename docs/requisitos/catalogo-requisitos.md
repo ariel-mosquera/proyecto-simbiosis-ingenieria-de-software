@@ -281,6 +281,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-01 | NFR-Q (Disponibilidad) | La plataforma ofrecerá servicio durante las 24 horas del día, con una disponibilidad mínima del 99,5 % en cada mes natural | G | - | Comprobación automática realizada cada cinco minutos desde un sistema externo a la plataforma | - |
 | NFR-02 | NFR-R (Regulaciones y estandares) | La plataforma no almacenará la contraseña de Google | L | FR-006, UR-01 | Mediante una prueba de autenticación con una cuenta de prueba. | - | 
+| NFR-03 | NFR-R (Tecnología y entorno) | La plataforma se desplegará en una infraestructura en la nube gestionada por un proveedor externo | G | - | Revisando la arquitectura, la configuración del despliegue, las dependencias del cliente y el acceso desde los navegadores compatibles | - |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
